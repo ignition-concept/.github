@@ -12,13 +12,9 @@ body:
     attributes:
       label: "Package Name"
       description: "check if the issuse has already arised"
-      placeholder: "E.g. Package@X.X.X"
+      placeholder: package@x.x.x / package@tag
     validations:
       required: true
-  - type: checkboxes
-    id: newest-package
-    attributes:
-      label: i have the newest ones!
   - type: textarea
     attributes:
       label: Steps to reproduce
