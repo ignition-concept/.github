@@ -1,0 +1,50 @@
+name: Bug report
+description: Create a bug report for Ignition Concept.
+labels: ['no status']
+body:
+  - type: markdown
+    attributes:
+      id: welcome
+      value: "## Thank you for contributing to my project!"
+  - type: markdown
+    attributes:
+      id: heading
+      value: "### What Package Is You Currently Facing Error?"
+  - type: input
+    attributes:
+      id: package-name
+      label: "Package Name"
+      description: "check if the issuse has already arised"
+      placeholder: "E.g. Package@X.X.X"
+    validations:
+      required: true
+  - type: checkboxes
+    id: newest-package
+    attributes:
+      label: i have the newest ones!
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: "Steps to reproduce"
+      value: |
+        Steps:
+        1.
+        2.
+        3.
+  - type: textarea
+    attributes:
+      label: Current behavior
+      description: Describe what happens instead of the expected behavior.
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: Describe what should happen.
+  - type: checkboxes
+    id: package-for
+    attributes:
+      label: Which Package Scope For?
+      description: You may select more than one.
+      options:
+      - label: php
+      - label: javascript
+      - label: typescript
