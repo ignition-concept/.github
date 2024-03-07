@@ -7,7 +7,7 @@ body:
       value: "## Thank you for contributing to my project!"
   - type: markdown
     attributes:
-      value: "### What Package Is You Currently Facing Error?"
+      value: "##### What Package Is You Currently Facing Error?"
   - type: input
     attributes:
       label: "Package Name"
@@ -33,7 +33,6 @@ body:
       label: Expected behavior
       description: Describe what should happen.
   - type: checkboxes
-    id: package-for
     attributes:
       label: Which Package Scope For?
       description: You may select more than one.
