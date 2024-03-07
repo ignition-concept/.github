@@ -4,15 +4,12 @@ labels: ['no status']
 body:
   - type: markdown
     attributes:
-      id: welcome
       value: "## Thank you for contributing to my project!"
   - type: markdown
     attributes:
-      id: heading
       value: "### What Package Is You Currently Facing Error?"
   - type: input
     attributes:
-      id: package-name
       label: "Package Name"
       description: "check if the issuse has already arised"
       placeholder: "E.g. Package@X.X.X"
